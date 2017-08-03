@@ -1,0 +1,18 @@
+{
+    "name": "vendi-advertising/synology-duplicate-file-report-reader",
+    "description": "Vendi Admin - Synology Duplicate File Report Reader",
+    "license": "MIT",
+    "require": {
+        "symfony/console": "^3.3",
+        "league/csv": "^8.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {"Vendi\\Admin\\Synology\\DuplicateFiles\\": "src/"}
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
