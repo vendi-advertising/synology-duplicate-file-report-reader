@@ -120,7 +120,7 @@ class DupeLogReader extends Command
         {
 
             //Get this field, store as int
-            $duplicate_group = (int)$row[ 'Duplicate Group' ];
+            $duplicate_group = (int)$row[ 'Group' ];
 
             //Add to array if it doesn't already exist with a zero value
             if( ! array_key_exists( $duplicate_group, $duplicate_count_array ) )
