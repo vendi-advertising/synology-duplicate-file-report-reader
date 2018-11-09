@@ -3,7 +3,7 @@
 
 define( 'APP_DIR',                  './releases/' );
 define( 'APP_NAME',                 'dupe-log-reader' );
-define( 'APP_VERSION',              '0.0.2' );
+define( 'APP_VERSION',              '0.0.3' );
 define( 'APP_EXT',                  'phar' );
 define( 'APP_ROOT_FILE',            'app.php' );
 
